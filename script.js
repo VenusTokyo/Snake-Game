@@ -11,6 +11,7 @@ const initGame = () => {
     let htmlMarkup = `<div class="food" style="grid-area: ${foodY} / ${foodX}"></div>`;
     htmlMarkup += `<div class="head" style="grid-area: ${snakeY} / ${snakeX}"></div>`;
     //creating a food div and adding it to the play area
+    //new remote origin
     playBoard.innerHTML = htmlMarkup;
 }
 changeFoodPosition();
